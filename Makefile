@@ -17,7 +17,7 @@ heroku_login:
 	-@heroku login
 
 heroku_create_app:
-	-@heroku create ${APP_NAME}
+	-@heroku create ${taxi-fare}
 
 deploy_heroku:
 	-@git push heroku master
